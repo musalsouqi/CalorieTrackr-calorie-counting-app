@@ -15,13 +15,28 @@ import com.codename1.ui.util.Resources;
 public class Main extends Lifecycle {
     @Override
     public void runApp() {
+
+        //creates a new page
         Form hi = new Form("Hi World", BoxLayout.y());
+        //creates a new button
         Button helloButton = new Button("Hello World");
+        //adds the button
         hi.add(helloButton);
-        helloButton.addActionListener(e -> hello());
-        hi.getToolbar().addMaterialCommandToSideMenu("Hello Command",
+        //if button is pressed runs the test page method
+        helloButton.addActionListener(e -> testPage());
+        //adds a menu item
+        hi.getToolbar().addMaterialCommandToSideMenu("1st menu item test",
         FontImage.MATERIAL_CHECK, 4, e -> hello());
+        //adds a 2nd menu item
+        hi.getToolbar().addMaterialCommandToSideMenu("2nd menu item test",
+                FontImage.MATERIAL_CHECK, 4, e -> hello());
+        //displays the page created earlier
         hi.show();
+    }
+    //creates a new page and runs the page
+    public void testPage(){
+        Form two = new Form("testpage",BoxLayout.y());
+        two.show();
     }
 
     private void hello() {
