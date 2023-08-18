@@ -5,16 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="336d32c5-6f4b-4a8f-b637-9fea310958e7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/groovy_4_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/lib/mysql-connector-j-8.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/ourapp/counterapp/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/src/main/java/com/ourapp/counterapp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/ourapp/counterapp/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/ourapp/counterapp/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/ourapp/counterapp/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/codenameone/simulator.properties" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/codenameone/simulator.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/compliance-check.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/compliance-check.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/main-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/main-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javase/target/main-javase-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/javase/target/main-javase-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,11 +64,26 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/musal/OneDrive/Documents/repos/main"
+    "last_opened_file_path": "C:/Users/musal/OneDrive/Documents/repos/main",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.30114943",
+    "settings.editor.selected.configurable": "Errors"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\musal\OneDrive\Documents\repos\main\common\lib" />
+      <recent name="C:\Users\musal\OneDrive\Documents\repos\main\common\src\main\java\com\ourapp\counterapp" />
+    </key>
+  </component>
   <component name="RunManager" selected="Maven.Run in Simulator">
+    <configuration name="mysql-connector-j-8.1.0.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/common/src/main/java/com/ourapp/counterapp/mysql-connector-j-8.1.0.jar" />
+      <method v="2" />
+    </configuration>
     <configuration name="Android Build" type="MavenRunConfiguration" factoryName="Maven" folderName="Build Server">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -742,6 +774,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="JAR Application.mysql-connector-j-8.1.0.jar" />
       <item itemvalue="Maven.Android Build" />
       <item itemvalue="Maven.iOS Debug Build" />
       <item itemvalue="Maven.iOS Release Build" />
@@ -758,6 +791,11 @@
       <item itemvalue="Maven.Run in Simulator" />
       <item itemvalue="Maven.Run as Desktop App" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JAR Application.mysql-connector-j-8.1.0.jar" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -772,5 +810,9 @@
       <updated>1613589489573</updated>
     </task>
     <servers />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

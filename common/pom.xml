@@ -85,6 +85,14 @@
                     <artifactId>kotlin-stdlib</artifactId>
                     <version>${kotlin.version}</version>
                 </dependency>
+                <dependency>
+                    <!-- Other dependencies -->
+
+                    <groupId>mysql</groupId>
+                    <artifactId>mysql-connector-java</artifactId>
+                    <version>8.1.0</version> <!-- Use the appropriate version -->
+
+                </dependency>
         
                 <!-- https://mvnrepository.com/artifact/org.jetbrains.kotlin/kotlin-annotations-jvm -->
                 <!-- https://mvnrepository.com/artifact/org.jetbrains/annotations -->
@@ -320,6 +328,7 @@
                             <goal>read-project-properties</goal>
                         </goals>
                         <configuration>
+
                             <files>
                                 <file>${basedir}/codenameone_settings.properties</file>
                             </files>
@@ -330,6 +339,9 @@
 
             <plugin>
                 <groupId>com.codenameone</groupId>
+
+
+
                 <artifactId>codenameone-maven-plugin</artifactId>
 
                 <executions>
@@ -355,8 +367,10 @@
                         <goals>
                             <goal>attach-test-artifact</goal>
                         </goals>
+
                     </execution>
                 </executions>
+
 
             </plugin>
 

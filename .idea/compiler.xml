@@ -7,8 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="main-common" />
-        <module name="main-javase" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="main-javase" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

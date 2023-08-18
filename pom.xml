@@ -231,9 +231,16 @@
       
       
       </dependency>
-                                          
-      
-      
+
+      <dependency>
+        <!-- Other dependencies -->
+
+          <groupId>mysql</groupId>
+          <artifactId>mysql-connector-java</artifactId>
+          <version>8.1.0</version> <!-- Use the appropriate version -->
+
+      </dependency>
+
       
       
       <dependency>
@@ -586,15 +593,16 @@
       
       
       </plugin>
-                                      
-    
-    
-    
-    
+
+
+
+
+
     </plugins>
-                        
-  
-  
+
+
+
+
   
   
   </build>
