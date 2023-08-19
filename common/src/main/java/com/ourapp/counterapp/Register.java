@@ -40,7 +40,7 @@ public class Register {
                     Dialog.show("Registration Successful", "You can now log in.", "OK", null);
                     LoginPage.loginPage();
                 } else {
-                    Dialog.show("Registration Failed", responseData, "OK", null);
+                    Dialog.show("Registration Failed", "Username already exists", "OK", null);
                 }
             });
 

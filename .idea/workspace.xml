@@ -5,18 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="336d32c5-6f4b-4a8f-b637-9fea310958e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/ourapp/counterapp/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/ourapp/counterapp/Register.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/codenameone_settings.properties" beforeDir="false" afterPath="$PROJECT_DIR$/common/codenameone_settings.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/ourapp/counterapp/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/ourapp/counterapp/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/src/main/java/com/ourapp/counterapp/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/ourapp/counterapp/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/src/main/java/com/ourapp/counterapp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/ourapp/counterapp/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/ourapp/counterapp/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/ourapp/counterapp/Register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/ourapp/counterapp/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/ourapp/counterapp/HomePage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/target/classes/com/ourapp/counterapp/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/ourapp/counterapp/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/ourapp/counterapp/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/ourapp/counterapp/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/target/codenameone/simulator.properties" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/codenameone/simulator.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/target/compliance-check.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/compliance-check.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/target/main-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/main-common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javase/target/main-javase-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/javase/target/main-javase-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +61,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/musal/OneDrive/Documents/repos/sqlserv",
+    "last_opened_file_path": "C:/Users/musal/OneDrive/Documents/repos/main",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.30114943",

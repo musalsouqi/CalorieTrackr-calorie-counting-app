@@ -5,10 +5,6 @@ import com.codename1.io.NetworkManager;
 import com.codename1.ui.*;
 import com.codename1.ui.layouts.BoxLayout;
 
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.nio.charset.StandardCharsets;
-import java.util.concurrent.TimeUnit;
 
 import static com.codename1.ui.CN.callSerially;
 

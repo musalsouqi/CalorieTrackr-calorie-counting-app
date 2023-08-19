@@ -12,13 +12,7 @@ public class Main extends Lifecycle {
 
     @Override
     public void runApp() {
-        NetworkManager.getInstance().addErrorListener(e -> {
-            if (e.getError() instanceof IOException) {
-                e.consume();
-            }
-        });
         LoginPage.loginPage();
-
     }
 
     private void hello() {
