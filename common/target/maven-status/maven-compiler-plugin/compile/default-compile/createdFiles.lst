@@ -1,4 +1,5 @@
 com\ourapp\counterapp\HomePage.class
+com\ourapp\counterapp\MealType.class
 com\ourapp\counterapp\Main.class
 com\ourapp\counterapp\User.class
 com\ourapp\counterapp\Register.class

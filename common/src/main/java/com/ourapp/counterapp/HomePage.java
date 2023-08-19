@@ -9,7 +9,7 @@ public class HomePage {
         Form homePage = new Form("Page Title", BoxLayout.y());
 
         //creates regular text
-        TextComponent hello = new TextComponent().label("Hello " + user.getUserName());
+        Label hello = new Label("Hello " + user.getUserName());
         //initiates a text field but doesnt actually do anything till you call it useing homepage.add(newTextField);
         TextField newTextField = new TextField("", "text hint" , 20, TextArea.ANY);
         //initiates a button but doesnt actually add it till you do homepage.add(newButton);
@@ -24,8 +24,12 @@ public class HomePage {
         //adds the button i made on line 16 to the form i made on line 9
         homePage.add(newButton);
 
+        // the following code creates a listener that waits for the button i made earlier to
+        // be pressed newButton.addActionListener(e -> this part of the code is what gets executed if the buttin is pressed);
+
         //this shows the page when called.. so if i wanted to call it in the main class i would do HomePage.displayHomePage()
         //because homePage.show(); is in this class.
         homePage.show();
     }
+
 }

@@ -1,12 +1,9 @@
 package com.ourapp.counterapp;
 
 
-import com.codename1.io.NetworkManager;
-import com.codename1.system.Lifecycle;
-import com.codename1.ui.*;
-import com.codename1.ui.layouts.*;
 
-import java.io.IOException;
+import com.codename1.system.Lifecycle;
+
 
 public class Main extends Lifecycle {
 
@@ -14,9 +11,4 @@ public class Main extends Lifecycle {
     public void runApp() {
         LoginPage.loginPage();
     }
-
-    private void hello() {
-        Dialog.show("Sorry under construction", "we will add something here", "OK", null);
-    }
-
 }
