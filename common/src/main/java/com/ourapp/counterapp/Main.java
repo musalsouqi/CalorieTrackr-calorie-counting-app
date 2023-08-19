@@ -6,7 +6,7 @@ import com.codename1.ui.*;
 import com.codename1.ui.layouts.*;
 
 public class Main extends Lifecycle {
-    private String user,pass;
+
     @Override
     public void runApp() {
         LoginPage.loginPage();

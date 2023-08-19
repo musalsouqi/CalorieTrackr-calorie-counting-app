@@ -5,21 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="336d32c5-6f4b-4a8f-b637-9fea310958e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/groovy_4_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/lib/mysql-connector-j-8.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/ourapp/counterapp/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/css/theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/ourapp/counterapp/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/ourapp/counterapp/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/src/main/java/com/ourapp/counterapp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/ourapp/counterapp/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/ourapp/counterapp/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/ourapp/counterapp/LoginPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/target/classes/com/ourapp/counterapp/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/ourapp/counterapp/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/theme.res" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/theme.res" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/target/codenameone/simulator.properties" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/codenameone/simulator.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/target/compliance-check.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/compliance-check.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/css/cn1-merged-files/ab656759b734ac9e87725d15802240e5/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/css/cn1-merged-files/ab656759b734ac9e87725d15802240e5/theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/css/theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/css/theme.css.checksums" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/css/theme.css.checksums" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/target/main-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/main-common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javase/target/main-javase-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/javase/target/main-javase-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,19 +59,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/musal/OneDrive/Documents/repos/main",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.30114943",
-    "settings.editor.selected.configurable": "Errors"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/musal/OneDrive/Documents/repos/main&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.30114943&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\musal\OneDrive\Documents\repos\main\common\lib" />

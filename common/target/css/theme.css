@@ -36,7 +36,7 @@ SideNavigationPanel {
     padding: 2mm 1mm 1mm 1mm;
 }
 
-@media platform-ios {
+@media platform-ios {``
     /** iOS Only styles for side menu. */
     SideNavigationPanel {
         /** Extra top padding to deal with notch on iPhoneX */
