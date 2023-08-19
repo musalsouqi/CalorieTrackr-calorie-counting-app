@@ -37,7 +37,10 @@ public class LoginPage {
                     if (responseData.equals("Login failed")) {
                         Dialog.show("Login Failed!", "we will add something here", "OK", null);
                     } else {
-                        HomePage.displayHomePage();
+                        User loggedInUser = new User();
+                        loggedInUser.setUserName(user);
+                        loggedInUser.setUserID(responseData);
+                        HomePage.displayHomePage(loggedInUser);
                     }
                 });
             });
