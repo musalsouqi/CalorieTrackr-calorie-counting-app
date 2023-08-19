@@ -1,52 +1,54 @@
 package com.ourapp.counterapp;
 
-import com.codename1.io.*;
+import com.codename1.io.ConnectionRequest;
+import com.codename1.io.NetworkManager;
 import com.codename1.ui.*;
 import com.codename1.ui.layouts.BoxLayout;
 
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.nio.charset.StandardCharsets;
+import java.util.concurrent.TimeUnit;
+
+import static com.codename1.ui.CN.callSerially;
+
 public class LoginPage {
-    private static String user;
-    private static String pass;
 
     public static void loginPage() {
         ConnectionRequest r = new ConnectionRequest();
         r.setUrl("http://Velo3-env.eba-heysjumt.us-west-2.elasticbeanstalk.com:8080/api/users");
-        r.setPost(true); // Set this to true for POST reques
+        r.setPost(true);
+
         Form two = new Form("Login", BoxLayout.y());
         TextField userName = new TextField("", "Username", 20, TextArea.ANY);
         TextComponentPassword password = new TextComponentPassword();
         two.add(userName);
         two.add(password);
         Button submit = new Button("Submit");
+        Button createAccount = new Button("Create account");
         two.add(submit);
+        two.add(createAccount);
 
         submit.addActionListener(e -> {
-            user = userName.getText();
-            pass = password.getText();
+            String user = userName.getText();
+            String pass = password.getText();
             r.addArgument("username", user);
             r.addArgument("password", pass);
+
             r.addResponseListener(response -> {
                 String responseData = new String(r.getResponseData());
-                if(responseData.equals("Login failed")){
-                    Dialog.show("Login Failed!", "we will add something here", "OK", null);
-                }else{
-                    Dialog.show("Login Successfull!", "we will add something here", "OK", null);
-                }
-
-
-
+                callSerially(() -> {
+                    if (responseData.equals("Login failed")) {
+                        Dialog.show("Login Failed!", "we will add something here", "OK", null);
+                    } else {
+                        HomePage.displayHomePage();
+                    }
+                });
             });
-            NetworkManager.getInstance().addToQueueAndWait(r);
+
+            NetworkManager.getInstance().addToQueue(r);
         });
-
+        createAccount.addActionListener(e -> Register.registration());
         two.show();
-    }
-
-    public static String getUser() {
-        return user;
-    }
-
-    public static String getPass() {
-        return pass;
     }
 }
