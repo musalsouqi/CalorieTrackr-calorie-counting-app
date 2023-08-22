@@ -11,9 +11,6 @@ import static com.codename1.ui.CN.callSerially;
 public class LoginPage {
 
     public static void loginPage() {
-        ConnectionRequest r = new ConnectionRequest();
-        r.setUrl("http://Velo3-env.eba-heysjumt.us-west-2.elasticbeanstalk.com:8080/api/users");
-        r.setPost(true);
 
         Form two = new Form("Login", BoxLayout.y());
         TextField userName = new TextField("", "Username", 20, TextArea.ANY);
@@ -28,7 +25,17 @@ public class LoginPage {
         submit.addActionListener(e -> {
             String user = userName.getText();
             String pass = password.getText();
-            r.addArgument("username", user);
+            checkUserCredentials(user,pass);
+    });
+        createAccount.addActionListener(e -> Register.registration());
+        two.show();
+    }
+
+
+    public static void checkUserCredentials(String user, String pass){
+        ConnectionRequest r = new ConnectionRequest();
+        r.setUrl("http://Velo3-env.eba-heysjumt.us-west-2.elasticbeanstalk.com:8080/api/users");
+        r.setPost(true);  r.addArgument("username", user);
             r.addArgument("password", pass);
 
             r.addResponseListener(response -> {
@@ -44,8 +51,6 @@ public class LoginPage {
             });
 
             NetworkManager.getInstance().addToQueue(r);
-        });
-        createAccount.addActionListener(e -> Register.registration());
-        two.show();
+        }
+
     }
-}

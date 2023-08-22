@@ -5,16 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="336d32c5-6f4b-4a8f-b637-9fea310958e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/ourapp/counterapp/AddMealPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/ourapp/counterapp/Meal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/ourapp/counterapp/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/ourapp/counterapp/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/ourapp/counterapp/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/ourapp/counterapp/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/com/ourapp/counterapp/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/ourapp/counterapp/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/com/ourapp/counterapp/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/ourapp/counterapp/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/lib/mysql-connector-j-8.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/ourapp/counterapp/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/ourapp/counterapp/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/ourapp/counterapp/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/ourapp/counterapp/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/codenameone/simulator.properties" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/codenameone/simulator.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/target/compliance-check.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/compliance-check.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/target/main-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/main-common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -772,20 +771,20 @@
     <list>
       <item itemvalue="JAR Application.mysql-connector-j-8.1.0.jar" />
       <item itemvalue="Maven.Android Build" />
-      <item itemvalue="Maven.iOS Debug Build" />
-      <item itemvalue="Maven.iOS Release Build" />
       <item itemvalue="Maven.Javascript Build" />
       <item itemvalue="Maven.Mac Desktop Build" />
       <item itemvalue="Maven.Windows Desktop Build" />
       <item itemvalue="Maven.Windows Device Build (UWP)" />
+      <item itemvalue="Maven.iOS Debug Build" />
+      <item itemvalue="Maven.iOS Release Build" />
       <item itemvalue="Maven.Cross-platform (JavaSE) Desktop App" />
-      <item itemvalue="Maven.Xcode iOS Project" />
       <item itemvalue="Maven.Gradle Android Project" />
-      <item itemvalue="Maven.Generate Native Interfaces" />
+      <item itemvalue="Maven.Xcode iOS Project" />
       <item itemvalue="Maven.Codename One Settings" />
+      <item itemvalue="Maven.Generate Native Interfaces" />
       <item itemvalue="Maven.Update Codename One" />
-      <item itemvalue="Maven.Run in Simulator" />
       <item itemvalue="Maven.Run as Desktop App" />
+      <item itemvalue="Maven.Run in Simulator" />
     </list>
     <recent_temporary>
       <list>
