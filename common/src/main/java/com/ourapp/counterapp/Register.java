@@ -26,27 +26,30 @@ public class Register {
             String username = usernameField.getText();
             String password = passwordField.getText();
             String email = emailField.getText();
-
-            ConnectionRequest r = new ConnectionRequest();
-            r.setUrl("http://Velo3-env.eba-heysjumt.us-west-2.elasticbeanstalk.com:8080/api/register");
-            r.setPost(true);
-            r.addArgument("username", username);
-            r.addArgument("password", password);
-            r.addArgument("email", email);
-
-            r.addResponseListener(response -> {
-                String responseData = new String(r.getResponseData());
-                if (responseData.equals("Registration successful")) {
-                    Dialog.show("Registration Successful", "You can now log in.", "OK", null);
-                    LoginPage.loginPage();
-                } else {
-                    Dialog.show("Registration Failed", "Username already exists", "OK", null);
-                }
-            });
-
-            NetworkManager.getInstance().addToQueue(r); // Asynchronous networking
+            createUserCredentials(username,password,email);
         });
 
         registrationPage.show();
+    }
+
+
+    public static void createUserCredentials(String username, String password, String email){
+        ConnectionRequest r = new ConnectionRequest();
+        r.setUrl("http://Velo3-env.eba-heysjumt.us-west-2.elasticbeanstalk.com:8080/api/register");
+        r.setPost(true);
+        r.addArgument("username", username);
+        r.addArgument("password", password);
+        r.addArgument("email", email);
+
+        r.addResponseListener(response -> {
+            String responseData = new String(r.getResponseData());
+            if (responseData.equals("Registration successful")) {
+                Dialog.show("Registration Successful", "You can now log in.", "OK", null);
+                LoginPage.loginPage();
+            } else {
+                Dialog.show("Registration Failed", "Username already exists", "OK", null);
+            }
+        });
+        NetworkManager.getInstance().addToQueue(r);
     }
 }
