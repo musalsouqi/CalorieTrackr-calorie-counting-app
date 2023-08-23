@@ -3,6 +3,8 @@ package com.ourapp.counterapp;
 import com.codename1.ui.*;
 import com.codename1.ui.layouts.BoxLayout;
 
+import java.util.ArrayList;
+
 public class HomePage {
     public static void displayHomePage(User loggedInUser){
         //starts making your app page but doesnt actually show it till you do homePage.show();
@@ -20,7 +22,12 @@ public class HomePage {
 
         //adds the textfield i made on line 14 to the form i made on line 9
         homePage.add(newTextField);
-
+        //todo test code please dont delete below here
+//        ArrayList<Meal> refrence = Meal.getMealFromDb("1",MealType.BREAKFAST,loggedInUser);
+//
+//        Meal onemeal = refrence.get(1);
+//        Label test = new Label(onemeal.toString());
+//        homePage.add(test);
         //adds the button i made on line 16 to the form i made on line 9
         homePage.add(newButton);
 
