@@ -4,14 +4,18 @@ import com.codename1.io.ConnectionRequest;
 import com.codename1.io.NetworkManager;
 import com.codename1.ui.*;
 import com.codename1.ui.layouts.BoxLayout;
-
+import com.codename1.ui.Form;
+import com.codename1.ui.Label;
+import com.codename1.ui.Button;
+import com.codename1.ui.Container;
+import com.codename1.ui.plaf.UIManager;
+import com.codename1.ui.util.Resources;
 
 import static com.codename1.ui.CN.callSerially;
 
 public class LoginPage {
 
     public static void loginPage() {
-
         Form two = new Form("Login", BoxLayout.y());
         TextField userName = new TextField("", "Username", 20, TextArea.ANY);
         TextComponentPassword password = new TextComponentPassword();
