@@ -5,3 +5,4 @@ com\ourapp\counterapp\Main.class
 com\ourapp\counterapp\User.class
 com\ourapp\counterapp\Meal.class
 com\ourapp\counterapp\Register.class
+com\ourapp\counterapp\Meal$MealsCallback.class
