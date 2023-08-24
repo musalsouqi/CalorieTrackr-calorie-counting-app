@@ -4,18 +4,10 @@ import com.codename1.io.CharArrayReader;
 import com.codename1.io.ConnectionRequest;
 import com.codename1.io.JSONParser;
 import com.codename1.io.NetworkManager;
-import com.codename1.ui.Dialog;
-import com.codename1.ui.Display;
-import com.codename1.ui.Form;
-import java.util.function.Consumer;
-import java.io.ByteArrayInputStream;
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Map;
 
 
@@ -90,10 +82,8 @@ public class Meal {
                             String mealCal = String.valueOf(mealData.get("mealCal"));
                             String mealDate = (String) mealData.get("date");
 
-                            // Create a Meal object with the parsed data
                             Meal meal = new Meal(mealName, mealCal, mealDate);
 
-                            // Add the meal to your list of meals
                             meals.add(meal);
                         }
 

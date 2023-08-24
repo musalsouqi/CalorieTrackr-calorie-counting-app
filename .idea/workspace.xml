@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="336d32c5-6f4b-4a8f-b637-9fea310958e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/json_20230618.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/lib/json-20230618.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/codenameone_settings.properties" beforeDir="false" afterPath="$PROJECT_DIR$/common/codenameone_settings.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/ourapp/counterapp/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/ourapp/counterapp/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/src/main/java/com/ourapp/counterapp/Meal.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/ourapp/counterapp/Meal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/com/ourapp/counterapp/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/ourapp/counterapp/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/com/ourapp/counterapp/Meal.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/ourapp/counterapp/Meal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/codenameone/simulator.properties" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/codenameone/simulator.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/compliance-check.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/compliance-check.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/main-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/main-common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +53,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/musal/OneDrive/Documents/repos/sqlbackup",
+    "last_opened_file_path": "C:/Users/musal/OneDrive/Documents/repos/main",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.30114943",
